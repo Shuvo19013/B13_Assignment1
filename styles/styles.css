@@ -157,3 +157,49 @@ header {
   line-height: 20px;
   color: #627382;
 }
+.brain-section {
+  padding-top: 120px;
+}
+
+.brain-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.brain-img {
+  width: 600px;
+  height: 600px;
+}
+
+.solution-msg {
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  margin-bottom: 16px;
+}
+
+.brain-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.brain-content p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.list-items-brain {
+  list-style: none;
+}
+
+.list-items-brain li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 16px;
+}
