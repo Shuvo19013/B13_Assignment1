@@ -70,3 +70,32 @@ header {
 .btn:hover {
   background-color: brown;
 }
+#hero {
+  height: 674px;
+  background-image: url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  padding: 154px 340px;
+}
+
+.hero-content h1 {
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.hero-content h1 span {
+  color: #30b868;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 16px;
+}
